@@ -34,16 +34,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       templateUrl: "templates/menu.html",
       controller: 'AppCtrl'
     })
-    .state('app.tab',{
-
-      url: "/tab",
-      views: {
-        'menuContent' :{
-        templateUrl: "templates/tabs.html",
-        //controller: 'tabsCtrl'
-        }
-      }  
-    })
+    
 
 
 .state('app.home', {
@@ -111,17 +102,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })
 
 
-.state('app.tab.dash', {
-      url: '/dash',
-      views: {
-        'tab-dash': {
-          templateUrl: 'templates/tab-dash.html'
-          //controller: 'DashCtrl'
-        }
-      }
-    })
-
-
     .state('app.single', {
       url: "/playlists/:playlistId",
       views: {
@@ -132,6 +112,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('home');
+  $urlRouterProvider.otherwise('/login');
 });
 
