@@ -1,8 +1,37 @@
 /* Empty. Add your own CSS if you like */
+
+.img{
+width: 100%;
+height: auto;
+}
 .whit {
+background: #414141;
+}
 
-background: grey;
-
-text-align: center;
+.headercl{
+	background-color: #DF0202;
 
 }
+.inputlog {
+/*margin-top: 20%; */
+padding: 17px;
+
+}
+
+.textwrap{
+	color: #777777;
+	padding-left: 7%;
+   margin-bottom: -20px;	
+   margin-top: 13%;
+}
+.labellog{
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background-color: #262626;
+	border: none; 
+}
+
+.input-label1{
+color: #fff;
+}
+

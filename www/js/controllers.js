@@ -6,6 +6,25 @@ angular.module('starter.controllers', [])
     };  
 })
 
+
+
+.controller('HomeCtrl', function($scope, $ionicNavBarDelegate) {
+  $scope.hasFocus = false;
+  $scope.setFocus = function(){
+    $scope.hasFocus = true;
+    $ionicNavBarDelegate.setTitle('');
+
+  };
+
+  $scope.noFocus = function(){
+    $scope.hasFocus = false;
+    $ionicNavBarDelegate.setTitle('Welcome');
+  }
+
+})
+
+
+
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
@@ -16,6 +35,9 @@ angular.module('starter.controllers', [])
     { title: 'Cowbell', id: 6 }
   ];
 })
+
+
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
