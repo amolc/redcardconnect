@@ -1,4 +1,58 @@
-/* Empty. Add your own CSS if you like */
+ @font-face {
+font-family: 'DiCnBd__';
+src: url('css/fonts/DiCnBd__.eot');
+src: url('css/fonts/DiCnBd__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnBd__.woff') format('woff'), 
+url('css/fonts/DiCnBd__.ttf') format('truetype'), 
+url('css/fonts/DiCnBd__.svg#DiCnBd__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnBk__';
+src: url('css/fonts/DiCnBk__.eot');
+src: url('css/fonts/DiCnBk__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnBk__.woff') format('woff'), 
+url('css/fonts/DiCnBk__.ttf') format('truetype'), 
+url('css/fonts/DiCnBk__.svg#DiCnBk__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnLt__';
+src: url('css/fonts/DiCnLt__.eot');
+src: url('css/fonts/DiCnLt__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnLt__.woff') format('woff'), 
+url('css/fonts/DiCnLt__.ttf') format('truetype'), 
+url('css/fonts/DiCnLt__.svg#DiCnLt__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnMd__';
+src: url('css/fonts/DiCnMd__.eot');
+src: url('css/fonts/DiCnMd__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnMd__.woff') format('woff'), 
+url('css/fonts/DiCnMd__.ttf') format('truetype'), 
+url('css/fonts/DiCnMd__.svg#DiCnMd__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'DiCnRg__';
+src: url('css/fonts/DiCnRg__.eot');
+src: url('css/fonts/DiCnRg__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnRg__.woff') format('woff'), 
+url('css/fonts/DiCnRg__.ttf') format('truetype'), 
+url('css/fonts/DiCnRg__.svg#DiCnRg__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
 
 .img{
 width: 100%;
@@ -35,3 +89,18 @@ padding: 17px;
 color: #fff;
 }
 
+.nwfont{
+	font-family: DiCnMd__;
+}
+.nwfont1{
+	font-family: DiCnBk__;
+}
+.nwfont2{
+	font-family: DiCnLt__;
+}
+.nwfont3{
+	font-family: DiCnMd__;
+}
+.NWFONT4{
+	font-family: DiCnRg__;
+}
