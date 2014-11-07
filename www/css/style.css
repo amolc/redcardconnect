@@ -104,3 +104,16 @@ color: #fff;
 .NWFONT4{
 	font-family: DiCnRg__;
 }
+
+
+.mainloginput::-moz-placeholder{
+	font-family:DiCnMd__; 
+}
+
+.mainloginput1::-moz-placeholder{
+	font-family:DiCnBk__; 
+}
+
+.mainloginput2::-moz-placeholder{
+	font-family:DiCnLt__; 
+}
