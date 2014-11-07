@@ -54,9 +54,8 @@ font-style: normal;
 
 
 
-.img{
-width: 100%;
-height: auto;
+.textwrap img{
+max-width: 100%;	
 }
 .whit {
 background: #414141;
@@ -73,10 +72,11 @@ padding: 17px;
 }
 
 .textwrap{
+	max-width: 100%
+	margin-top: 40px;
+	padding-top: 20px;
 	color: #777777;
-	padding-left: 7%;
-   margin-bottom: -20px;	
-   margin-top: 13%;
+	padding-left: 40px;	
 }
 .labellog{
 	margin-bottom: 10px;
@@ -116,4 +116,33 @@ color: #fff;
 
 .mainloginput2::-moz-placeholder{
 	font-family:DiCnLt__; 
+}
+.radiobackground{
+background-color: #ff7803;
+}
+
+.radio{
+   
+	text-align: center;
+	padding-top: 20px;
+
+}
+.radioimg{
+	max-width: 100%;
+display: inline-block;
+
+
+}
+.radioheaderimg{
+	text-align: center;
+}
+.radioheaderimg img{
+max-width: 100%;
+text-align: center;
+}
+.radioimg img{
+	
+	
+
+	/*padding-right: 6px;*/
 }
