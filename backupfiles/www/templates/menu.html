@@ -1,0 +1,51 @@
+<ion-nav-view>
+<ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button> 
+  </ion-nav-buttons>
+
+</ion-nav-view>
+
+
+
+
+
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content drag-content="false">
+    <ion-nav-bar class="bar-assertive nav-title-slide-ios7 headercl">
+     <!-- <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>  -->
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-assertive">
+      <h1 class="title">Menu</h1>
+    </header>  
+    <ion-content class="has-header" >
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/home" class="nwfont">
+          Home
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/radio" class="nwfont">
+          OnRadio
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/tv" class="nwfont">
+          OnTv
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/digital" class="nwfont">
+          OnDigital
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/social" class="nwfont">
+          OnSocial
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/list" class="nwfont">
+          MyList
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/setting" class="nwfont">
+          Setting
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

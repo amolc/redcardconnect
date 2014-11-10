@@ -1,0 +1,151 @@
+ @font-face {
+font-family: 'DiCnBd__';
+src: url('css/fonts/DiCnBd__.eot');
+src: url('css/fonts/DiCnBd__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnBd__.woff') format('woff'), 
+url('css/fonts/DiCnBd__.ttf') format('truetype'), 
+url('css/fonts/DiCnBd__.svg#DiCnBd__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnBk__';
+src: url('css/fonts/DiCnBk__.eot');
+src: url('css/fonts/DiCnBk__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnBk__.woff') format('woff'), 
+url('css/fonts/DiCnBk__.ttf') format('truetype'), 
+url('css/fonts/DiCnBk__.svg#DiCnBk__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnLt__';
+src: url('css/fonts/DiCnLt__.eot');
+src: url('css/fonts/DiCnLt__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnLt__.woff') format('woff'), 
+url('css/fonts/DiCnLt__.ttf') format('truetype'), 
+url('css/fonts/DiCnLt__.svg#DiCnLt__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'DiCnMd__';
+src: url('css/fonts/DiCnMd__.eot');
+src: url('css/fonts/DiCnMd__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnMd__.woff') format('woff'), 
+url('css/fonts/DiCnMd__.ttf') format('truetype'), 
+url('css/fonts/DiCnMd__.svg#DiCnMd__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'DiCnRg__';
+src: url('css/fonts/DiCnRg__.eot');
+src: url('css/fonts/DiCnRg__.eot?#iefix') format('embedded-opentype'), 
+url('css/fonts/DiCnRg__.woff') format('woff'), 
+url('css/fonts/DiCnRg__.ttf') format('truetype'), 
+url('css/fonts/DiCnRg__.svg#DiCnRg__') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+.textwrap img{
+max-width: 100%;	
+}
+.whit {
+background-color: #414141;
+}
+
+.headercl{
+	background-color: #DF0202;
+
+}
+.inputlog {
+/*margin-top: 20%; */
+padding: 17px;
+
+}
+
+.textwrap{
+	max-width: 100%
+	margin-top: 40px;
+	padding-top: 20px;
+	color: #777777;
+	padding-left: 40px;	
+}
+.labellog{
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background-color: #262626;
+	border: none; 
+}
+
+.input-label1{
+color: #fff;
+}
+
+.nwfont{
+	font-family: DiCnMd__;
+}
+.nwfont1{
+	font-family: DiCnBk__;
+}
+.nwfont2{
+	font-family: DiCnLt__;
+}
+.nwfont3{
+	font-family: DiCnMd__;
+}
+.NWFONT4{
+	font-family: DiCnRg__;
+}
+
+
+.mainloginput::-moz-placeholder{
+	font-family:DiCnMd__; 
+}
+
+.mainloginput1::-moz-placeholder{
+	font-family:DiCnBk__; 
+}
+
+.mainloginput2::-moz-placeholder{
+	font-family:DiCnLt__; 
+}
+.radiobackground{
+background-color: #ff7803;
+}
+
+.radio{
+   
+	text-align: center;
+	padding-top: 20px;
+
+}
+.radioimg{
+	max-width: 100%;
+display: inline;
+padding: 2px;
+
+
+}
+.radioheaderimg{
+	text-align: center;
+}
+.radioheaderimg img{
+max-width: 100%;
+text-align: center;
+}
+.radioimg img{
+	
+	
+}
+
+ .radio item-list item-ion {
+	background-color: #ff7803;
+} 

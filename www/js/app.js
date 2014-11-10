@@ -25,36 +25,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-
+	.state('articles', {
+	      url: "/articles",  
+	       templateUrl: "templates/articles.html"
+	})    
 
     .state('app', {
       url: "/app",
-     abstract: true,
+      abstract: true,
       templateUrl: "templates/menu.html",
       controller: 'AppCtrl'
     })
-   
-    .state('app.tab', {
-      url: "/tab",
-      //abstract: true,
-      views: {
-        'menuContent' :{
-        templateUrl: "templates/tabs.html"
-        }
-      }  
-    })
+    /*.state('app.menu', {
+      url: "/menu",
+      templateUrl: "templates/menu.html",
+      controller: 'AppCtrl'
+    })*/
+    
 
-
-.state('app.login', {
-      url: "/login",
-      views:{
-            'menuContent':{
-      templateUrl: "templates/login.html",
-      controller: 'HomeCtrl'
-       
-  }
-  }
-}) 
 .state('app.home', {
       url: "/home",
       views: {
@@ -63,9 +51,28 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           controller:'HomeCtrl'
         }
       }
-    })
-
-    .state('app.radio', {
+    }) 
+.state('app.home.login', {
+      url: "/login",
+      views:{
+            'menuContent':{
+      templateUrl: "templates/login.html",
+      controller: 'HomeCtrl'
+       
+  }
+  }
+})
+.state('app.home.home1', {
+      url: "/home1",
+      views:{
+            'menuContent':{
+      templateUrl: "templates/home1.html",
+      controller: 'HomeCtrl'
+       
+  }
+  }
+}) 
+    .state('app.home.radio', {
       url: "/radio",
       views: {
         'menuContent' :{
@@ -74,12 +81,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-.state('articles', {
-      url: "/articles",  
-          templateUrl: "templates/articles.html"     
-})    
+.state('app.home.articles', {
+      url: "/articles",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/articles.html"
+        }
+      }
+    })
 
-    .state('app.tv', {
+    .state('app.home.tv', {
       url: "/tv",
       views: {
         'menuContent' :{
@@ -87,17 +98,25 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.digital', {
+    .state('app.home.digital', {
       url: "/digital",
       views: {
         'menuContent' :{
           templateUrl: "templates/digital.html",
-          }
+          
+        }
       }
     })
-
-   
-  .state('app.list', {
+      .state('app.home.social', {
+      url: "/social",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/social.html",
+          
+        }
+      }
+    })
+  .state('app.home.list', {
       url: "/list",
       views: {
         'menuContent' :{
@@ -107,7 +126,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-.state('app.setting', {
+.state('app.home.setting', {
       url: "/setting",
       views: {
         'menuContent' :{
@@ -119,6 +138,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/login');
+  $urlRouterProvider.otherwise('/app/home/login');
 });
 

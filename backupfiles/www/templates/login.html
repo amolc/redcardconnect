@@ -1,0 +1,61 @@
+
+
+
+<ion-view title="REDCARDCONNECT">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+
+<ion-nav-buttons side="right">
+          <button ng-click="setFocus()" ng-hide="hasFocus" class="button button-icon ion-ios7-search-strong animated"></button>
+
+          <span ng-show="hasFocus" class="animated">
+            <label class="item-input-wrapper animated">
+              <i class="icon ion-ios7-search placeholder-icon"></i>
+              <input ng-blur="noFocus()" type="search style:"height:32px" " placeholder="Search">
+            </label>
+            <button ng-click="noFocus()" class="button button-clear animated">
+              Cancel
+            </button>
+          </span>
+
+        </ion-nav-buttons>
+
+  <ion-content class="has-header">
+    <h1>Login</h1>
+  </ion-content>
+</ion-view>
+
+
+
+<ion-content class="whit" scroll="false">
+   <div class="textwrap">
+   <!--<h2 style="color:#777777 ;font-size:40px">HELLO</h2> -->
+   <img ng-src="/img/RCC_logo(150x150).png">
+    </div>
+ <form>
+      <div class="list inputlog">
+        <label class="item item-input labellog">
+          <!--<span class="input-label input-label1">Login with Facebook</span> -->
+          <input type="text" class="mainloginput" ng-model="loginData.username" placeholder="Login with Facebook">
+        </label>
+        <label class="item item-input labellog">
+          <!--<span class="input-label input-label1">Login with Twitter</span> -->
+          <input type="password" class="mainloginput1" ng-model="loginData.password" placeholder="Login with Twitter">
+        </label>
+      <label class="item item-input labellog">
+          <!--<span class="input-label input-label1">Login with Email</span> -->
+          <input type="password" class="mainloginput2" ng-model="loginData.password" placeholder="Login with Email">
+        </label>
+             </div>
+               
+      
+
+    </form>
+</ion-content>
+
+<ion-footer-bar align-title="left"class="whit">
+  <div class="buttons">
+    <a href="button"style="color:#fff;text-decoration:none">Create new account</a>
+  </div>
+</ion-footer-bar>
