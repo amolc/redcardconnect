@@ -129,7 +129,8 @@ background-color: #ff7803;
 }
 .radioimg{
 	max-width: 100%;
-display: inline-block;
+display: inline;
+padding: 2px;
 
 
 }
@@ -143,8 +144,6 @@ text-align: center;
 .radioimg img{
 	
 	
-
-	/*padding-right: 6px;*/
 }
 
  .radio item-list item-ion {

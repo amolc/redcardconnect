@@ -25,10 +25,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-.state('articles', {
-      url: "/articles",  
-       templateUrl: "templates/articles.html"
-})    
+
 
     .state('app', {
       url: "/app",
@@ -36,7 +33,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       templateUrl: "templates/menu.html",
       controller: 'AppCtrl'
     })
-    
+   
+    .state('app.tab', {
+      url: "/tab",
+      //abstract: true,
+      views: {
+        'menuContent' :{
+        templateUrl: "templates/tabs.html"
+        }
+      }  
+    })
+
+
 .state('app.login', {
       url: "/login",
       views:{
@@ -66,6 +74,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+.state('articles', {
+      url: "/articles",  
+          templateUrl: "templates/articles.html"     
+})    
+
     .state('app.tv', {
       url: "/tv",
       views: {
@@ -79,19 +92,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/digital.html",
-          
-        }
+          }
       }
     })
-      .state('app.social', {
-      url: "/social",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/social.html",
-          
-        }
-      }
-    })
+
+   
   .state('app.list', {
       url: "/list",
       views: {
