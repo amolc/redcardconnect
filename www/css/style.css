@@ -58,7 +58,7 @@ font-style: normal;
 max-width: 100%;	
 }
 .whit {
-background: #414141;
+background-color: #414141;
 }
 
 .headercl{
@@ -146,3 +146,7 @@ text-align: center;
 
 	/*padding-right: 6px;*/
 }
+
+ .radio item-list item-ion {
+	background-color: #ff7803;
+} 

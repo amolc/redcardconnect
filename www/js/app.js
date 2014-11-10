@@ -20,8 +20,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
+
+
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
+
+.state('articles', {
+      url: "/articles",  
+       templateUrl: "templates/articles.html"
+})    
+
     .state('app', {
       url: "/app",
      abstract: true,
@@ -102,18 +110,9 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           
         }
       }
-    })
-
-
-    .state('app.single', {
-      url: "/playlists/:playlistId",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/playlist.html",
-          controller: 'PlaylistCtrl'
-        }
-      }
     });
+
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/login');
 });
