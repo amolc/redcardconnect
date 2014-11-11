@@ -1,0 +1,37 @@
+<ion-view title="Articles"class="radiobackground" >
+<h2>Articles</h2>
+  <ion-content class="has-header radiobackground" ng-controller="scrollCtrl">
+
+    <div class="radio">
+    <ion-list >
+    	<ion-item class="whit">
+    	<img ng-src=" /../img/TheFightClub_Logo1.png">
+		</ion-item>
+    	<ion-item class="whit">
+		<img ng-src=" /../img/fightclub.jpg">    	
+    	</ion-item>
+		<ion-item class="whit">
+		<img ng-src=" /../img/weavkral.png">    	
+    	</ion-item>
+    	<ion-item class="whit">
+		<img ng-src=" /../img/IMG-20141031-WA0002.jpg">    	
+    	</ion-item>
+    	<ion-item class="whit">
+		<img ng-src=" /../img/fightclub.jpg">    	
+    	</ion-item>
+    	<ion-item class="whit">
+		<img ng-src=" /../img/fightclub.jpg">    	
+    	</ion-item>
+    	<ion-item class="whit">
+		<img ng-src=" /../img/fightclub.jpg">    	
+    	</ion-item>
+    </ion-list>
+    <ion-infinite-scroll
+  ng-if="moreDataCanBeLoaded()"
+  icon="ion-loading-c"
+  on-infinite="loadMoreData()">
+</ion-infinite-scroll>
+</div>
+  </ion-content>
+</ion-view>
+
