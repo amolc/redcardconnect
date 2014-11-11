@@ -25,10 +25,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-	.state('articles', {
-	      url: "/articles",  
-	       templateUrl: "templates/articles.html"
-	})    
+
 
     .state('app', {
       url: "/app",
@@ -85,7 +82,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/articles",
       views: {
         'menuContent' :{
-          templateUrl: "templates/articles.html"
+          templateUrl: "templates/radioart1.html"
         }
       }
     })

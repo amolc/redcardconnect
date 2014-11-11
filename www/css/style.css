@@ -10,7 +10,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'DiCnBk__';
+font-family: 'DiCnBk';
 src: url('fonts/DiCnBk__.eot');
 src: url('fonts/DiCnBk__.eot?#iefix') format('embedded-opentype'), 
 url('fonts/DiCnBk__.woff') format('woff'), 
@@ -21,7 +21,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'DiCnLt__';
+font-family: 'DiCnLt';
 src: url('fonts/DiCnLt__.eot');
 src: url('fonts/DiCnLt__.eot?#iefix') format('embedded-opentype'), 
 url('fonts/DiCnLt__.woff') format('woff'), 
@@ -32,7 +32,7 @@ font-style: normal;
 }
 
 @font-face {
-font-family: 'DiCnMd__';
+font-family: 'DiCnMd';
 src: url('fonts/DiCnMd__.eot');
 src: url('fonts/DiCnMd__.eot?#iefix') format('embedded-opentype'), 
 url('fonts/DiCnMd__.woff') format('woff'), 
@@ -42,7 +42,7 @@ font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'DiCnRg__';
+font-family: 'DiCnRg';
 src: url('fonts/DiCnRg__.eot');
 src: url('fonts/DiCnRg__.eot?#iefix') format('embedded-opentype'), 
 url('fonts/DiCnRg__.woff') format('woff'), 
@@ -73,6 +73,7 @@ padding: 17px;
 
 .textwrap{
 	max-width: 100%
+	height: auto;
 	margin-top: 40px;
 	padding-top: 20px;
 	color: #777777;
@@ -90,42 +91,52 @@ color: #fff;
 }
 
 .nwfont{
-	font-family: 'DiCnBd__';
+	font-family: 'DiCnBd';
 }
 .nwfont1{
-	font-family: DiCnBk__;
+	font-family: 'DiCnBk';
 }
 .nwfont2{
-	font-family: DiCnLt__;
+	font-family: 'DiCnLt';
 }
 .nwfont3{
-	font-family: DiCnMd__;
+	font-family: 'DiCnMd';
 }
 .NWFONT4{
-	font-family: DiCnRg__;
+	font-family: 'DiCnRg';
 }
 
 
 .mainloginput::-moz-placeholder{
-	font-family:DiCnMd__; 
+	font-family:'DiCnMd'; 
+}
+.mainloginput::-webkit-input-placeholder{
+	font-family:'DiCnMd'; 
+}
+.mainloginput1::-moz-placeholder{
+	font-family:'DiCnBd'; 
 }
 
-.mainloginput1::-moz-placeholder{
-	font-family:DiCnBk__; 
+.mainloginput1::-webkit-input-placeholder{
+	font-family:'DiCnBd'; 
 }
 
 .mainloginput2::-moz-placeholder{
-	font-family:DiCnLt__; 
+	font-family:'DiCnLt'; 
 }
+.mainloginput2::-webkit-input-placeholder{
+	font-family:'DiCnLt'; 
+}
+
 .radiobackground{
 background-color: #ff7803;
 }
 
-/*#sidemenubkcolor{
+.sidemenubkcolor{
 	background-color: #0e0e0e;
 	color: #fffcef;
 }
-*/
+
 .item-complex .item-content{
 	font-family: 'DiCnBd';
 background-color: #0e0e0e;
@@ -152,11 +163,20 @@ padding: 2px;
 max-width: 100%;
 text-align: center;
 }
-.radioimg img{
-	
-	
-}
 
- .radio item-list item-ion {
+
+.radio item-list item-ion {
 	background-color: #ff7803;
 } 
+.button{
+	padding-top: 95%;
+	background-color: #0e0e0e;
+	border:none;
+}
+.textarea,input[type="text"]{
+
+	color:white;
+}
+.socialbkg{
+	background-color: darkcyan;
+}
