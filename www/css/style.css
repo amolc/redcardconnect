@@ -189,6 +189,26 @@ text-align: center;
 .item{
 	border-color: #737373;
 }
+.item:last-child{
+	border-color: #0e0e0e;
+}
 .grade-b .menu-content, .grade-c .menu-content{
 	border-left: 1px solid #0e0e0e; 
+}
+.menu a.item-content{
+	border-left:20px solid transparent;
+
+}
+
+.orangeborder a.item-content{
+	border-color:#f99235;
+}
+.greenborder a.item-content{
+	border-color:#00a69c;
+}
+.violetborder a.item-content{
+	border-color:#9000fe;
+}
+.blueborder a.item-content{
+	border-color:#02a9ef;
 }
