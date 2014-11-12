@@ -180,3 +180,8 @@ text-align: center;
 .socialbkg{
 	background-color: darkcyan;
 }
+.wide-item {
+  width: 10000px;
+  overflow-x: scroll; 
+  -webkit-overflow-scrolling: touch;  
+}
