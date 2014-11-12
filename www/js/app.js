@@ -86,7 +86,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-
+  .state('app.home.tvarticles1', {
+      url: "/tvarticles1",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/tvart1.html"
+        }
+      }
+    })
     .state('app.home.tv', {
       url: "/tv",
       views: {

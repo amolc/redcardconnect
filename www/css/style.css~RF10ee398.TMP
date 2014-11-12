@@ -72,12 +72,12 @@ padding: 17px;
 }
 
 .textwrap{
-	max-width: 100%;
-	margin: 0 auto;
-	padding-top: 10px;
+	max-width: 100%
+	height: auto;
+	margin-top: 40px;
+	padding-top: 20px;
 	color: #777777;
-	text-align: center;
-	 font-size: 16px;
+	padding-left: 40px;	
 }
 .labellog{
 	margin-bottom: 10px;
@@ -144,15 +144,13 @@ background-color: #0e0e0e;
 	border:none;		
 }
 .radio{
-     max-width: 100%;
-     height: auto;
+   
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 20px;
 
 }
 .radioimg{
 	max-width: 100%;
-
 display: inline;
 padding: 2px;
 
@@ -181,7 +179,7 @@ text-align: center;
 	color:white;
 }
 .socialbkg{
-	background-color: #02a9ef;
+	background-color: darkcyan;
 }
 .wide-item {
   width: 10000px;
@@ -204,23 +202,4 @@ text-align: center;
 
 .orangeborder a.item-content{
 	border-color:#f99235;
-}
-.greenborder a.item-content{
-	border-color:#00a69c;
-}
-.violetborder a.item-content{
-	border-color:#9000fe;
-}
-.blueborder a.item-content{
-	border-color:#02a9ef;
-}	
-.greenbg{
-   background-color:#00a69c;
-}
-.purplebg{
-background-color: #9000fe;
-}
-
-.textheadrp{
-	font-size: 8vw;
 }
