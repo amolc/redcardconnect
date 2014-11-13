@@ -1,8 +1,16 @@
 <ion-view title="TV">
   <ion-content class="has-header greenbg">
-    <div class="radioheaderimg">
-    <img ng-src="img/pg_bannertvshows.png">	
-    </div>
+  
+    
+  <ion-slide-box on-slide-changed="slideHasChanged($index)">
+  <ion-slide>
+    <div class="radioheaderimg"><img ng-src="img/pg_bannertvshows.png"></div>
+  </ion-slide>
+  <ion-slide>
+    <div class="radioheaderimg"><img ng-src="img/sporecup.png"></div>
+  </ion-slide>
+</ion-slide-box>
+    
     <div class="textwrap ">
       <h2 class="nwfont1 textheadrp">TV Channels</h2>
       </div>
