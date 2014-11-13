@@ -18,11 +18,16 @@ angular.module('starter.controllers', [])
 
   $scope.noFocus = function(){
     $scope.hasFocus = false;
-    $ionicNavBarDelegate.setTitle('Welcome');
+    $ionicNavBarDelegate.setTitle('Welcome'); 
   }
 
 })
+.controller('tvartCtrl', function($scope,$state,$ionicNavBarDelegate){
+        $scope.click=function(user) {
+          state.go('app.home.tv');
+        };
 
+})
 function scrollCtrl($scope, $http) {
   $scope.items = [];
   $scope.loadMore = function() {

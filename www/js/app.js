@@ -45,7 +45,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/home.html",
-          controller:'HomeCtrl'
+          controller:"HomeCtrl"    
         }
       }
     }) 
@@ -54,17 +54,28 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views:{
             'menuContent':{
       templateUrl: "templates/login.html",
-      controller: 'HomeCtrl'
+    
        
   }
   }
 })
+.state('app.home.loginform', {
+      url: "/loginform",
+      views:{
+            'menuContent':{
+      templateUrl: "templates/loginform.html",
+  
+       
+  }
+  }
+})
+
 .state('app.home.home1', {
       url: "/home1",
       views:{
             'menuContent':{
       templateUrl: "templates/home1.html",
-      controller: 'HomeCtrl'
+  
        
   }
   }
@@ -90,7 +101,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       url: "/tvarticles1",
       views: {
         'menuContent' :{
-          templateUrl: "templates/tvart1.html"
+          templateUrl: "templates/tvart1.html",
+          controller: "tvartCtrl" 
         }
       }
     })

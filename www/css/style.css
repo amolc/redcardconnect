@@ -90,7 +90,7 @@ padding: 17px;
 .labellog{
 	margin-bottom: 10px;
 	border-radius: 6px;
-	background-color: #262626;
+	background-color: #fff;
 	border: none; 
 }
 
@@ -138,6 +138,7 @@ color: #fff;
 
 .radiobackground{
 background-color: #ff7803;
+padding: 0;
 }
 
 .sidemenubkcolor{
@@ -146,17 +147,39 @@ background-color: #ff7803;
 }
 
 .item-complex .item-content{
-	font-family: 'DiCnBd';
+	font-family: 'DiCnMd';
 background-color: #0e0e0e;
 	color: #fffcef;
 	border:none;		
 }
+
+.button.button-dark {
+	font-family: 'DiCnBd';
+background-color: #262626;
+	color: #fffcef;
+	border:none;
+} 
+.buttonlog {
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #262626;
+    border: medium none;
+}
+
 .radio{
      max-width: 100%;
      height: auto;
 	text-align: center;
 	padding-top: 10px;
+	padding: 0;
 
+}
+
+.tvimg{
+	max-width: 100%;
+	width: 150px;
+	padding: 2px;
+	display: inline;
 }
 .radioimg{
 	max-width: 100%;
@@ -215,22 +238,54 @@ text-align: center;
 .orangeborder a.item-content{
 	border-color:#f99235;
 }
+
+.orangeborder a.item-content.activated{
+	background-color: #f99235; 
+}
+
 .greenborder a.item-content{
 	border-color:#00a69c;
 }
+
+.greenborder a.item-content.activated{
+	background-color: #00a69c; 
+}
+
 .violetborder a.item-content{
 	border-color:#9000fe;
 }
+
+.violetborder a.item-content.activated{
+	background-color: #9000fe; 
+}
+
 .blueborder a.item-content{
 	border-color:#02a9ef;
+}
+.blueborder a.item-content.activated{
+	background-color: #02a9ef; 
 }	
 .greenbg{
    background-color:#00a69c;
+   padding: 0;
+}
+.greenbg a.item-content.activated{
+	background-color: #02a9ef; 
 }
 .purplebg{
 background-color: #9000fe;
 }
+.purplebg a.item-content.activated{
+	background-color: #9000fe; 
+}
 
 .textheadrp{
 	font-size: 8vw;
+}
+
+
+.wide-item {
+  width: 10000px;
+/*  overflow-x: scroll; /*
+/*  -webkit-overflow-scrolling: touch;  */
 }

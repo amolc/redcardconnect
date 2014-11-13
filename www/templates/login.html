@@ -4,34 +4,32 @@
 
 
 
-<ion-content class="whit" scroll="false">
+<ion-content class="whit" scroll="false" padding="true">
    <div class="loginimg">
    <!--<h2 style="color:#777777 ;font-size:40px">HELLO</h2> -->
    <img ng-src="img/RCC_logo.png">
     </div>
  <form>
       <div class="list inputlog">
-        <label class="item item-input labellog">
-          <!--<span class="input-label input-label1">Login with Facebook</span> -->
-          <input type="text" class="mainloginput" ng-model="loginData.fusername" placeholder="Login with Facebook">
-        </label>
-        <label class="item item-input labellog">
-          <!--<span class="input-label input-label1">Login with Twitter</span> -->
-          <input type="text" class="mainloginput1" ng-model="loginData.tusername" placeholder="Login with Twitter">
-        </label>
-      <label class="item item-input labellog">
-          <!--<span class="input-label input-label1">Login with Email</span> -->
-          <input type="text" class="mainloginput2" ng-model="loginData.eusername" placeholder="Login with Email">
-        </label>
+        <button class="button button-full button-dark buttonlog">
+  <span class="nwfont4">Login with Facebook</span>
+</button>
+        <button class="button button-full button-dark buttonlog">
+  <span class="nwfont4">Login with Twitter</span>
+</button>
+      <button class="button button-full button-dark buttonlog">
+  <span class="nwfont4">Login with Email</span>
+</button>
              </div>
                
       
 
-    </form>
-</ion-content>
 
-<ion-footer-bar align-title="left"class="whit">
+    </form>
+<ion-footer-bar align-title="left" class="whit">
   <div class="buttons">
-    <a href="#"style="color:#fff;text-decoration:none">Create new account</a>
+    <a href="#/app/home/loginform" style="color:#fff;text-decoration:none; padding-left: 22px;"> Create new account </a>
   </div>
 </ion-footer-bar>
+</ion-content>
+
