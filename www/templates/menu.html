@@ -1,6 +1,26 @@
   <ion-side-menus>
-        
         <ion-side-menu-content>
+        <ion-nav-bar class="bar-assertive" ng-click="jumparent()">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+   <!--<h1 class="title">Title!</h1>-->
+<ion-nav-buttons side="right">
+          <button ng-click="setFocus()" ng-hide="hasFocus" class="button button-icon ion-ios7-search-strong animated"></button>
+
+          <span ng-show="hasFocus" class="animated">
+            <label class="item-input-wrapper animated">
+              <i class="icon ion-ios7-search placeholder-icon"></i>
+              <input ng-blur="noFocus()" type="search" placeholder="Search">
+            </label>
+            <button ng-click="noFocus()" class="button button-clear animated">
+              Cancel
+            </button>
+          </span>
+
+        </ion-nav-buttons>
+ </ion-nav-bar>
+        
           <ion-nav-view animation="no-animation" name="menuContent"></ion-nav-view>
         </ion-side-menu-content> 
         
@@ -8,28 +28,28 @@
          <ion-content class="sidemenubkcolor">
             <ion-list>
       
-    <ion-item class="nwfont"  style="padding-top:25%;background-color: #0e0e0e; border-color: #0e0e0e;" nav-clear menu-close href="#/app/header/home">
+    <ion-item class="nwfont"  style="padding-top:25%;background-color: #0e0e0e; border-color: #0e0e0e;" nav-clear menu-close href="#/app/home">
        
           Home
       
         </ion-item>
       
-        <ion-item nav-clear menu-close href="#/app/header/radio" class="nwfont orangeborder">
+        <ion-item nav-clear menu-close href="#/app/radio" class="nwfont orangeborder">
           #OnRadio
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/header/tv" class="nwfont greenborder">
+        <ion-item nav-clear menu-close href="#/app/tv" class="nwfont greenborder">
           #OnTv
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/header/digital" class="nwfont violetborder">
+        <ion-item nav-clear menu-close href="#/app/digital" class="nwfont violetborder">
           #OnDigital
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/header/social" class="nwfont blueborder">
+        <ion-item nav-clear menu-close href="#/app/social" class="nwfont blueborder">
           #OnSocial
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/header/list" class="nwfont">
+        <ion-item nav-clear menu-close href="#/app/list" class="nwfont">
           MyList         <i style="float:right;" class="ion-ios7-plus-empty"></i>
         </ion-item>
-        <ion-item style="padding-top:115px;background-color: #0e0e0e;font-size: 23px;"nav-clear menu-close href="#/app/header/setting" class="nwfont">
+        <ion-item style="padding-top:115px;background-color: #0e0e0e;font-size: 23px;"nav-clear menu-close href="#/app/setting" class="nwfont">
          
           <i style="color:#9a9997;font-size:30px; "class="ion-gear-a"></i>
         
