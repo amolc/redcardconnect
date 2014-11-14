@@ -1,3 +1,4 @@
+
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
@@ -79,6 +80,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+.state('app.radio.articles1', {
+      url: "/articles1",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/radioart.html"
+        }
+      }
+    })
 
 .state('app.radio.articles', {
       url: "/articles",
@@ -147,4 +156,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/login');
 });
+
 
