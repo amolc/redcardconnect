@@ -40,17 +40,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     })*/
     
 
-.state('app.header', {
-      url: "/header",
-
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/header.html",
-          controller:"headerCtrl"    
-        }
-      }
-    }) 
-.state('app.header.login', {
+.state('app.login', {
       url: "/login",
       views:{
             'menuContent':{
@@ -60,7 +50,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   }
   }
 })
-.state('app.header.loginform', {
+.state('app.loginform', {
       url: "/loginform",
       views:{
             'menuContent':{
@@ -71,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   }
 })
 
-.state('app.header.home', {
+.state('app.home', {
       url: "/home",
       views:{
             'menuContent':{
@@ -81,7 +71,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   }
   }
 }) 
-    .state('app.header.radio', {
+    .state('app.radio', {
       url: "/radio",
       views: {
         'menuContent' :{
@@ -90,15 +80,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-.state('app.header.radio.articles', {
+.state('app.radio.articles', {
       url: "/articles",
       views: {
-        'radiomenuContent' :{
+        'menuContent' :{
           templateUrl: "templates/radioart1.html"
         }
       }
     })
-  .state('app.header.tvarticles1', {
+  .state('app.tvarticles1', {
       url: "/tvarticles1",
       views: {
         'menuContent' :{
@@ -107,7 +97,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.header.tv', {
+    .state('app.tv', {
       url: "/tv",
       views: {
         'menuContent' :{
@@ -115,7 +105,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.header.digital', {
+    .state('app.digital', {
       url: "/digital",
       views: {
         'menuContent' :{
@@ -124,7 +114,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-      .state('app.header.social', {
+      .state('app.social', {
       url: "/social",
       views: {
         'menuContent' :{
@@ -133,7 +123,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-  .state('app.header.list', {
+  .state('app.list', {
       url: "/list",
       views: {
         'menuContent' :{
@@ -143,7 +133,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-.state('app.header.setting', {
+.state('app.setting', {
       url: "/setting",
       views: {
         'menuContent' :{
@@ -155,6 +145,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/header/login');
+  $urlRouterProvider.otherwise('/app/login');
 });
 
