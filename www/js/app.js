@@ -124,6 +124,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.digitalart', {
+      url: "/digitalart",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/digitalart.html",
+          
+        }
+      }
+    })
+    
       .state('app.social', {
       url: "/social",
       views: {
