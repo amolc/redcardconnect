@@ -97,20 +97,21 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-  .state('app.tvarticles1', {
-      url: "/tvarticles1",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/tvart1.html",
-          controller: "tvartCtrl" 
-        }
-      }
-    })
+  
     .state('app.tv', {
       url: "/tv",
       views: {
         'menuContent' :{
           templateUrl: "templates/tv.html"
+        }
+      }
+    })
+    .state('app.tvarticles', {
+      url: "/tvarticles",
+      views: {
+        'menuContent' :{
+            templateUrl: "templates/tvart1.html",
+            controller: "tvartCtrl" 
         }
       }
     })
