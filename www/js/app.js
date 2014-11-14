@@ -80,19 +80,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-.state('app.radio.articles1', {
-      url: "/articles1",
+/*.state('app.radioarticles', {
+      url: "/radioarticles",
       views: {
         'radiomenuContent' :{
           templateUrl: "templates/radioart.html"
         }
       }
     })
-
-.state('app.radio.articles', {
-      url: "/articles",
+*/
+.state('app.radioarticles', {
+      url: "/radioarticles",
       views: {
-        'radiomenuContent' :{
+        'menuContent' :{
           templateUrl: "templates/radioart1.html"
         }
       }

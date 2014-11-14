@@ -3,7 +3,12 @@ angular.module('starter.controllers', [])
 .controller('AppCtrl', function( $scope, $state, $ionicSideMenuDelegate ) {
     $scope.toggleMenu = function() {
       $ionicSideMenuDelegate.toggleLeft();
-    };  
+    };
+    $scope.jumparent = function(){
+
+      $state.go('^');
+    }
+  
 })
 
 
@@ -25,11 +30,7 @@ angular.module('starter.controllers', [])
   
 
   }
-    $scope.jumparent = function(){
-
-      $state.go('^');
-    };
-
+    
 
 
 })
