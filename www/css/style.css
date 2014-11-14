@@ -285,9 +285,49 @@ background-color: #9000fe;
 
 
 
+.listdiv1{
+	font-family:DiCnBd; 
+max-width: 100%;
+width: 100%;
+background-color: #262626;
+height: 35%;
+border: dotted 1px;
+border-color: white;
+
+}
+
+.listdiv2{
+    max-width: 50%;
+	text-align: center;
+    width: 45%;
+    height:30%;
+	background-color:#414141;
+	border: dotted 1px;
+border-color: white;
+
+}
 
 
+.settingdiv2{
+	max-width: 100%;
+	max-height: 100%;
+	height: 100%;
+	background-color: #414141;
+}
 
+
+.greyy{
+	background-color: #414141;
+}
+
+
+.fontcolor{
+	color:#fffcef;
+}
+
+.blackk{
+	background-color: #262626;
+}
 
 .wide-as-needed {
   overflow: scroll;
