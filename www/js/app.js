@@ -106,7 +106,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.tv.tvarticles', {
+    .state('app.tvarticles', {
       url: "/tvarticles",
       views: {
         'menuContent' :{
