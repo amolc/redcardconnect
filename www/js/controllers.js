@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
     };
     $scope.jumparent = function(){
 
-      $state.go('^');
+      $state.go('prev');
     }
   
 })
