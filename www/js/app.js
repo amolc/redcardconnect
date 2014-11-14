@@ -84,7 +84,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     .state('app.header.radio', {
       url: "/radio",
       views: {
-        'menuContent' :{
+        'menuContent-radio' :{
           templateUrl: "templates/radio.html"
         }
       }

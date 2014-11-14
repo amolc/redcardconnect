@@ -20,10 +20,7 @@
     	<ion-item class="radiobackground">
 	<img class="radioimg" ng-src="img/radartimg4.png">	
     	</ion-list>
-    <ion-infinite-scroll
-  ng-if="moreDataCanBeLoaded()"
-  icon="ion-loading-c"
-  on-infinite="loadMoreData()">
+    <ion-infinite-scroll ng-if="moreDataCanBeLoaded()" icon="ion-loading-c" on-infinite="loadMoreData()">
 </ion-infinite-scroll>
 </div>
   </ion-content>
