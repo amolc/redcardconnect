@@ -6,7 +6,8 @@ angular.module('starter.controllers', [])
     };
     $scope.jumparent = function(){
 
-      $state.go('^');
+      $state.go('app.radio');
+      console.log( $state.$current );
     }
   
 })
