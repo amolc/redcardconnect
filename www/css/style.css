@@ -191,7 +191,7 @@ background-color: #262626;
 
 display: inline;
 padding: 2px;
-margin-bottom: 10px;
+margin-bottom: 15px;
 
 }
 .radioheaderimg{
@@ -226,10 +226,23 @@ text-align: center;
   overflow-x: scroll; 
   -webkit-overflow-scrolling: touch;  
 }
-.item{
+.itemenu{
 	border-color: #737373;
+	
+}
+.item{
+
+}
+.itemenutv{
+	border-color: #737373;
+	
+}
+
+.itemart{
+	border-color: #ff7803;
 	margin: 0;
 }
+
 .item:last-child{
 	border-color: #0e0e0e;
 }
@@ -289,7 +302,12 @@ background-color: #9000fe;
 	font-size: 8vw;
 }
 
-
+ion-item.greenbg.item {
+border-color: #00a69c;
+}
+ion-item.radiobackground.item {
+border-color: #ff7803;
+}
 
 .listdiv1{
 	font-family:DiCnBd; 
