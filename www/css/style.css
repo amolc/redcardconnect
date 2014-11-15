@@ -330,12 +330,12 @@ border-color: white;
 	background-color: #262626;
 }
 
+.item-avatar, .item-avatar .item-content, .item-avatar-left, .item-avatar-left .item-content{
 
 
-
-
-
-
+	padding-left: 14px;
+min-height: 72px;
+}
 
 .wide-as-needed {
   overflow: scroll;
