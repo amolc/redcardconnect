@@ -336,6 +336,10 @@ height: 31%;
 	padding-left: 14px;
 min-height: 72px;
 }
+.item-body h3{
+	margin-top: -15px;
+margin-bottom: 18px;
+}
 
 .wide-as-needed {
   overflow: scroll;
