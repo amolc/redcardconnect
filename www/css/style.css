@@ -176,7 +176,10 @@ background-color: #262626;
 	padding: 0;
 
 }
-
+.hw{
+	width: 150px;
+	height: 150px;
+}
 .tvimg{
 	max-width: 100%;
 	width: 150px;
