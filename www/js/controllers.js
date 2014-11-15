@@ -38,6 +38,14 @@ angular.module('starter.controllers', [])
 
 
 })
+.controller('HomeCtrl', function($scope) {
+  $scope.data = {
+    isLoading: false
+  };
+  
+  
+})
+
 .controller('tvartCtrl', function($scope,$state,$ionicNavBarDelegate){
      /*   $scope.click=function(user) {
           $state.go('app.home.tv');
@@ -72,3 +80,4 @@ function scrollCtrl($scope, $http) {
     $scope.loadMore();
   });
 }
+

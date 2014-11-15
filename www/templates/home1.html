@@ -23,8 +23,8 @@
      <h4></h4> 
   </ion-content>  -->
 
-
-  <ion-scroll direction="x" class="wide-as-needed">
+<ion-header-bar class="bar-subheader">
+      <ion-scroll direction="x" class="wide-as-needed">
         <a class="button inline-button">this is a button : 1</a>
         <a class="button">this is a button : 2</a>
         <a class="button">this is a button : 3</a>
@@ -41,8 +41,42 @@
         <a class="button">this is a button : 14</a>
         <a class="button">this is a button : 15</a>
         <a class="button">this is a button : 16</a>
-
+        
+        
+        
       </ion-scroll>
+    </ion-header-bar>
+    <div class="bar bar-loading bar-assertive" ng-if="data.isLoading">
+      Loading...
+    </div>
+    
+
+    <ion-content ng-class="{'has-loading': data.isLoading}">
+      <ion-toggle ng-model="data.isLoading">Toggle me to toggle loading!</ion-toggle>
+    
+<ion-scroll direction="x" class="wide-as-needed">
+        <a class="button inline-button">this is a button : 1</a>
+        <a class="button">this is a button : 2</a>
+        <a class="button">this is a button : 3</a>
+        <a class="button">this is a button : 4</a>
+        <a class="button">this is a button : 5</a>
+        <a class="button">this is a button : 6</a>
+        <a class="button">this is a button : 7</a>
+        <a class="button">this is a button : 8</a>
+        <a class="button">this is a button : 9</a>
+        <a class="button">this is a button : 10</a>
+        <a class="button">this is a button : 11</a>
+        <a class="button">this is a button : 12</a>
+        <a class="button">this is a button : 13</a>
+        <a class="button">this is a button : 14</a>
+        <a class="button">this is a button : 15</a>
+        <a class="button">this is a button : 16</a>
+        
+        
+        
+      </ion-scroll>
+
+    </ion-content>
 
  <!--   <div class="bar bar-loading bar-assertive" ng-if="data.isLoading">
       Loading...

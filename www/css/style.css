@@ -61,7 +61,7 @@ max-width: 100%;
 background-color: #414141;
 }
 
-.headercl{
+cl{
 	background-color: #DF0202;
 
 }
@@ -297,10 +297,9 @@ border-color: white;
 }
 
 .listdiv2{
-    max-width: 50%;
+   
 	text-align: center;
-    width: 45%;
-    height:30%;
+  
 	background-color:#414141;
 	border: dotted 1px;
 border-color: white;
@@ -328,6 +327,13 @@ border-color: white;
 .blackk{
 	background-color: #262626;
 }
+
+
+
+
+
+
+
 
 .wide-as-needed {
   overflow: scroll;
@@ -377,16 +383,3 @@ border-color: white;
   height: 24px;
   border-width: 1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
