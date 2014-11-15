@@ -225,6 +225,7 @@ text-align: center;
 }
 .item{
 	border-color: #737373;
+	margin: 0;
 }
 .item:last-child{
 	border-color: #0e0e0e;
