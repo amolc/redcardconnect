@@ -77,8 +77,10 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/radio.html"
-        }
+        },
+    
       }
+
     })
 /*.state('app.radioarticles', {
       url: "/radioarticles",
@@ -97,7 +99,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-  
+      
     .state('app.tv', {
       url: "/tv",
       views: {
