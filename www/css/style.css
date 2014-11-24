@@ -118,7 +118,8 @@ color: #fff;
 
 
 .mainloginput::-moz-placeholder{
-	font-family:'DiCnMd'; 
+	font-family:'DiCnMd';
+	color:#262626; 
 }
 .mainloginput::-webkit-input-placeholder{
 	font-family:'DiCnMd'; 
@@ -216,7 +217,7 @@ text-align: center;
 */
 .textarea,input[type="text"]{
 
-	color:white;
+	color:#fff;
 }
 .socialbkg{
 	background-color: #02a9ef;
@@ -399,6 +400,15 @@ min-height: 72px;
 	margin-top: -15px;
 margin-bottom: 18px;
 }
+
+
+
+
+
+
+
+
+
 
 .wide-as-needed {
   overflow: scroll;

@@ -3,15 +3,20 @@ angular.module('starter.controllers', [])
 .controller('AppCtrl', function( $scope, $state, $ionicSideMenuDelegate ) {
     $scope.toggleMenu = function() {
       $ionicSideMenuDelegate.toggleLeft();
+ 
     };
-    $scope.jumparent = function(){
+    $scope.hasFocus = false;
+  $scope.setFocus = function(){
+    $scope.hasFocus = true;
+   // $ionicNavBarDelegate.setTitle('');
 
+  };
 
-      $state.go('app.radio');
-      console.log( $state.$current );
-//      $state.go('prev');
-
-    }
+  $scope.noFocus = function(){
+    $scope.hasFocus = false;
+    //$ionicNavBarDelegate.setTitle('Welcome');
+  }
+  
   
 })
 
